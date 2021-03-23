@@ -1,0 +1,20 @@
+.header-intro p {
+  margin: 0;
+}
+.header-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 23vh;
+  font-size: 40px;
+  font-weight: 400;
+  background: #ebebeb;
+}
+.divider1 {
+  top: 10%;
+  position: relative;
+  margin: 0 auto;
+  width: 50px;
+  border-bottom: 3px solid #0476d0;
+}

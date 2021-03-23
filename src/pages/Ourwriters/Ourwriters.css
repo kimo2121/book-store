@@ -1,0 +1,70 @@
+.ourwriters-page {
+  background: #f7f9f8;
+  padding-bottom: 5vh;
+}
+
+.countries-filter {
+  margin: 3vh auto 0 auto;
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filter-btns {
+  cursor: pointer;
+  text-transform: none;
+  padding: 0.457em 1.414em;
+  border: 1px solid #0476d0;
+  border-radius: 3px;
+  font-weight: bold;
+  background: transparent;
+  transition: color, background-color 0.25s;
+  color: #0476df;
+  font-size: 0.8em;
+  font-family: "Cairo", sans-serif;
+  outline: unset;
+}
+
+.filter-btns:hover {
+  border: 1px solid #0476d0;
+  color: #ffffff;
+  background-color: #0476d0;
+}
+.writers-intro {
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.each-writer-intro {
+  width: 20vw;
+  height: 40vh;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+.image-circle {
+  margin: 0 auto;
+  position: relative;
+  width: 12vw;
+  height: 12vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.each-writer-intro p {
+  margin: 2vh 0 0 0;
+}
+.divider2 {
+  margin: 0 auto;
+  border-bottom: 1px solid #ecf0f1;
+  width: 70%;
+}
+
+.each-writer-intro a {
+  display: block;
+  margin: 2vh auto 0 auto;
+  color: #0476d0;
+}

@@ -1,0 +1,25 @@
+.retails-page {
+  background: #f7f9f8;
+  padding-bottom: 5vh;
+}
+
+.retails-details {
+  width: 86vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+.each-retail {
+  margin: 0 0 0 1vw;
+  width: 20vw;
+}
+.each-retail span {
+  margin-bottom: 5vh;
+}
+.each-retail p {
+  margin: 0;
+}
+.each-retail h2 {
+  margin-bottom: 0;
+}

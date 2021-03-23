@@ -1,0 +1,23 @@
+.about-page {
+  background: #f7f9f8;
+  padding-bottom: 5vh;
+  /* padding-top: 2vh; */
+}
+/* .header-intro {
+} */
+.about-images {
+  margin-top: 2vh;
+}
+.about-images img {
+  max-width: 80%;
+  max-height: 150px;
+  margin: 10px;
+  border-radius: 6px;
+}
+.about-message {
+  font-size: 16px;
+  margin: 0 auto;
+  font-weight: 700;
+  line-height: 1.5;
+  width: 50%;
+}
