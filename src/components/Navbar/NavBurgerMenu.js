@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { iconsdata, linksdata } from "./Data";
 import { changeLink } from "../../redux/navbar/navbar.actions";
 import { useDispatch, useSelector } from "react-redux";
+import ShoppingCart from "../ShoppingCart/ShoppingCart";
 
 import { IconContext } from "react-icons";
 import Layer2BurgerNav from "./Layer2BurgerNav";
@@ -26,6 +27,27 @@ function NavBurgerMenu() {
               <FiIcons.FiMenu className="burger-icon" color="white" size={25} />
             </span>
           </div>
+          {/* <div className="navbar">
+            <nav
+              className={
+                sidebar ? "slider-shoppingcart opened" : "slider-shoppingcart"
+              }
+            >
+              <div onClick={showSidebar} className="menu-x">
+                <AiIcons.AiOutlineClose
+                  className={
+                    item.name === "shoppingcart"
+                      ? "x-icon x-shoppingcart"
+                      : "x-icon"
+                  }
+                  size={item.name === "shoppingcart" ? "24" : "35"}
+                />
+              </div>
+              <div className="slider-menu-content">
+                {item.name === "shoppingcart" && <ShoppingCart />}
+              </div>
+            </nav> */}
+          {/* </div> */}
           <nav className={sidebar ? "burger-menu active" : "burger-menu"}>
             <div onClick={showSidebar} to="#" className="menu-x">
               <AiIcons.AiOutlineClose
@@ -51,7 +73,7 @@ function NavBurgerMenu() {
             <div className="burger-nav-divider" />
             <div className="burger-nav-icons">
               {iconsdata
-                .filter((item => item.name != "shoppingcart"))
+                .filter((item) => item.name != "shoppingcart")
                 .map((item, indx) => (
                   <Layer2BurgerNav key={indx} item={item} />
                 ))}
