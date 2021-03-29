@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="nav-bar">
-        <NavBurgerMenu className="burger-menu-component" />
+      <NavBurgerMenu className="burger-menu-component" />
       <div className="nav-bar-links">
         {linksdata.map((item, indx) => (
           <Link
