@@ -14,6 +14,7 @@ import PeoplePreview from "./pages/PeoplePreviews/PeoplePreview";
 import Contact from "./pages/Contact/Contact";
 import BookStore from "./pages/BookStore/BookStore";
 import TheVideos from "./pages/TheVideos/TheVideos";
+import HomePage from "./pages/HomePage/HomePage";
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App() {
         <Navbar />
         <div style={{ height: "10vh" }} />
         <Switch>
-          {/* <Route exact path="/" component={HomePage} /> */}
+          <Route exact path="/" component={HomePage} />
           <Route exact path="/من-نحن" component={About} />
           <Route exact path="/كت-اب-الدار" component={Ourwriters} />
           <Route exact path="/منافذ-التوزيع" component={Retails} />
