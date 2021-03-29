@@ -91,7 +91,7 @@
 .slider-menu.active,
 .burger-menu.active {
   top: 0;
-  transition: 500ms;
+  /* transition: 500ms; */
   display: flex;
   justify-content: center;
   align-items: center;
