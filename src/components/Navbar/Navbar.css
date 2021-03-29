@@ -3,10 +3,10 @@
   height: 10vh;
   display: flex;
   justify-content: center;
-  /* position: fixed; */
+  position: fixed;
   margin: 0 auto;
   vertical-align: middle;
-  z-index: 100;
+  z-index: 10000;
   width: 100%;
 }
 .nav-bar-links,
@@ -164,6 +164,7 @@
   .burger-menu-component {
     display: block;
     margin-right: 20px;
+    z-index: 10000;
     margin-top: 5px;
   }
 }
