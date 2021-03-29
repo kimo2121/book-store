@@ -104,7 +104,7 @@
   color: #0476d0 !important;
 }
 .burger-menu-component {
-  display: none;
+  display: block;
 }
 
 @media screen and (max-width: 1285px) {

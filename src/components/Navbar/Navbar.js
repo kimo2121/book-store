@@ -7,14 +7,15 @@ import { changeLink } from "../../redux/navbar/navbar.actions";
 import { useDispatch, useSelector } from "react-redux";
 import NavBurgerMenu from "./NavBurgerMenu";
 
-
 const Navbar = () => {
   const changeLinkDispatcher = useDispatch();
   const activeLink = useSelector((state) => state.navbar.activeLink);
 
   return (
     <div className="nav-bar">
-      <NavBurgerMenu className="burger-menu-component" />
+      <div className="burger-menu-component-container">
+        <NavBurgerMenu className="burger-menu-component" />
+      </div>
       <div className="nav-bar-links">
         {linksdata.map((item, indx) => (
           <Link
