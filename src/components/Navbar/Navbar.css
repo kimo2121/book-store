@@ -3,7 +3,7 @@
   height: 10vh;
   display: flex;
   justify-content: center;
-  position: fixed;
+  /* position: fixed; */
   margin: 0 auto;
   vertical-align: middle;
   z-index: 100;
@@ -104,7 +104,7 @@
   color: #0476d0 !important;
 }
 .burger-menu-component {
-  display: block;
+  display: none;
 }
 
 @media screen and (max-width: 1285px) {
