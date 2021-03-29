@@ -1,51 +1,20 @@
-.contact-component {
+.contact-info-container {
   display: flex;
   padding-top: 1vh;
+  font-weight: 600;
 }
+
 .contact-page {
   background: #f7f9f8;
   padding-bottom: 5vh;
 }
-.name-phone {
-  display: flex;
-  justify-content: center;
-}
-.contact-form {
-  width: 50%;
-  margin: 0 auto;
-}
-.name-phone input,
-.email-input,
-.message {
-  width: 35%;
-  margin-left: 2vw;
-  margin-top: 3vh;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 4px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  font-family: "Cairo", sans-serif;
-}
-.email-input,
-.message {
-  margin-left: 2vw;
-  width: 78%;
-}
-.message {
-  resize: none;
-  height: 13vh;
-}
-.name-phone input:focus,
-.email-input:focus,
-.message:focus {
-  border-color: #66afe9;
-  outline: 0;
-  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
-}
+
 .contact-address {
+  margin-top: 1.5vh;
+  width: 50%;
+}
+.contact-address p {
+  margin: 0 auto;
   width: 50%;
 }
 
@@ -67,25 +36,12 @@
 .our-facebook-url {
   margin-top: 2vh;
 }
-/* .number-icon {
-} */
-.contact-us-btn {
-  outline: unset;
-  border: 1px solid #0476d0;
-  color: #ffffff;
-  background-color: #0476d0;
-  border-radius: 15px;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem;
-  line-height: 1.5;
-  text-transform: uppercase;
-  font-weight: 400;
-  transition: background-color 0.35s, opacity 0.35s;
-  margin-left: 2vw;
-  margin-top: 1vw;
-  width: 82%;
-}
-.contact-us-btn:hover {
-  cursor: pointer;
-  background: #2a87ce;
+@media only screen and (max-width: 768px) {
+  .contact-info-container {
+    flex-direction: column;
+  }
+  .contact-address {
+    width: 100%;
+    margin-bottom: 5vh;
+  }
 }

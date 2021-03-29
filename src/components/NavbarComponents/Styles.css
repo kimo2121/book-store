@@ -1,0 +1,117 @@
+.navbar-call .whats-app {
+  margin: 0;
+  color: white;
+  font-size: 50px;
+}
+.whats-app svg,
+.directions-address svg {
+  color: white !important;
+}
+.navbar-directions {
+  color: white;
+}
+.whats-app:hover,
+.whats-app:hover svg,
+.directions-address:hover,
+.directions-address:hover svg,
+.directions-address-2:hover {
+  cursor: pointer !important;
+  color: #0476d0 !important;
+}
+.directions-address {
+  font-size: 50px;
+  display: inline-block;
+  width: 85%;
+}
+
+.directions-address-2 {
+  font-size: 25px;
+  display: inline-block;
+  width: 80%;
+}
+.directions-icons {
+  margin: 2vh auto 0 auto;
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: 400ms;
+}
+.directions-icons svg {
+  color: white !important;
+  position: relative;
+  margin: auto;
+  top: 20%;
+}
+.directions-icons:hover {
+  cursor: pointer;
+  border-color: #0476d0;
+}
+.share-icons {
+  margin: 0 auto;
+}
+.share-icons svg {
+  top: 25%;
+}
+.search {
+  margin: -37vh auto !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.search input {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  font-size: 1.25rem;
+  width: 50vw;
+  border: unset;
+  /* height: 2rem; */
+  padding: 0.65rem 1rem;
+  line-height: 1.5;
+  outline: unset;
+}
+.search input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+.search-icon {
+  display: block;
+  width: 3.5rem;
+  /* padding: 4vh; */
+  height: 3.2rem;
+  border: unset;
+  margin-right: -2px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  background: #0476d0;
+  transition: background-color 0.35s;
+}
+.search-icon:hover {
+  background: #2a87ce;
+  cursor: pointer;
+}
+.search-icon svg {
+  margin: 2.3vh auto !important;
+  position: relative;
+}
+.search ::placeholder {
+  font-size: 22px;
+  opacity: 0.8;
+  font-family: "Cairo", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .directions-address {
+    font-size: 25px;
+  }
+  .directions-address-2 {
+    font-size: 18px;
+  }
+  .navbar-call .whats-app {
+    font-size: 25px;
+  }
+}

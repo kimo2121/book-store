@@ -1,0 +1,61 @@
+.cart-item-component {
+  width: 90%;
+  margin: 2vh auto 0 auto;
+}
+.each-cart-item:hover {
+  background: rgb(248, 248, 248);
+}
+.each-cart-item {
+  height: 20%;
+  background: white;
+  padding: 1vh;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+  margin-bottom: 2vh;
+}
+.each-cart-item img {
+  width: 5vw;
+  height: 14vh;
+}
+
+.cart-item-x-icon {
+  color: #0476d0 !important;
+  stroke-width: 100px;
+}
+.cart-item-x-icon:hover {
+  cursor: pointer;
+}
+.cart-item-details {
+  width: 50%;
+  text-align: right;
+}
+.cart-item-details p {
+  margin: 0;
+}
+.cart-item-details span {
+  font-size: 12px;
+  margin-top: 0;
+}
+.item-quantity {
+  display: inline-block;
+  margin: 0 1vh;
+}
+.add-remove-item button {
+  vertical-align: middle;
+  font-size: 1.3rem;
+  outline: unset;
+  font-weight: bold;
+  border: 0.1px solid rgb(216, 216, 216);
+  border-radius: 3px;
+}
+.add-remove-item button:hover {
+  cursor: pointer;
+}
+.remove-btn {
+  padding-left: 1.3vh;
+  padding-right: 1.3vh;
+}
+.add-btn {
+}

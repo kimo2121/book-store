@@ -1,0 +1,65 @@
+.thevideos-component {
+  background-color: #f7f9f8;
+  padding-top: 3vh;
+}
+.videos-btns {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 5vh auto 0 auto;
+  justify-content: center;
+}
+.each-video-container {
+  background: #ebebeb;
+  height: 57vh;
+  width: 250px;
+  padding: 1vh;
+  text-align: right;
+  border-radius: 5px;
+  margin: 1vh 1.5vw 3vh 1.5vw;
+}
+.video-poster:hover,
+.play-video:hover {
+  cursor: pointer;
+}
+.poster-container img {
+  width: 100%;
+  height: 37vh;
+}
+.each-video-container p {
+  margin-top: 1vh;
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 600;
+  width: 100%;
+}
+.video-home,
+.promo-novels {
+}
+.promo-novels {
+}
+.video-home {
+}
+.play-video {
+  position: absolute;
+  padding: 0 1vw;
+  margin-top: 5.5rem;
+  margin-right: -10rem;
+  background: rgba(0, 0, 0, 0.65);
+  border: unset;
+  outline: unset;
+  border-radius: 15px;
+}
+.poster-container:hover .play-video {
+  background: #0476d0;
+}
+.main-btn,
+.promo-btn {
+  color: white;
+  background: #0476d0;
+}

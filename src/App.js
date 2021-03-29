@@ -13,6 +13,7 @@ import Retails from "./pages/Retails/Retails";
 import PeoplePreview from "./pages/PeoplePreviews/PeoplePreview";
 import Contact from "./pages/Contact/Contact";
 import BookStore from "./pages/BookStore/BookStore";
+import TheVideos from "./pages/TheVideos/TheVideos";
 function App() {
   return (
     <div className="App">
@@ -21,12 +22,13 @@ function App() {
         <div style={{ height: "10vh" }} />
         <Switch>
           {/* <Route exact path="/" component={HomePage} /> */}
-          <Route exact path="/About" component={About} />
+          <Route exact path="/من-نحن" component={About} />
           <Route exact path="/كت-اب-الدار" component={Ourwriters} />
           <Route exact path="/منافذ-التوزيع" component={Retails} />
           <Route exact path="/قالوا-عنا" component={PeoplePreview} />
           <Route exact path="/الاتصال" component={Contact} />
           <Route exact path="/متجر-الكتب" component={BookStore} />
+          <Route exact path="/الفيديو" component={TheVideos} />
           <Redirect to="/" />
         </Switch>
         <Footer />

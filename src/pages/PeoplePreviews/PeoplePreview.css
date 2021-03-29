@@ -32,8 +32,8 @@
   padding: 4px;
   border-radius: 4px;
   background: white;
-  width: 11vw;
-  height: 24vh;
+  width: 140px;
+  height: 150px;
 }
 .each-preview span {
   font-size: 20px;
@@ -41,4 +41,10 @@
 .each-preview strong {
   font-size: 21px;
   font-weight: 600;
+}
+@media only screen and (max-width: 800px) {
+  .each-preview {
+    width: 47vw;
+  }
+ 
 }

@@ -5,24 +5,58 @@
   color: rgb(207, 207, 207) !important;
 }
 
-.menu-bars {
-  background: none;
+.slider-menu-icon,
+.burger-menu-icon,
+.layer2-burger-icon {
+  cursor: pointer;
 }
-.menu-x .x-icon {
+
+.layer2-burger-nav-icons span {
+  margin: 0.5vh;
+  border-radius: 50px;
+  padding: 0.3vh 1.4vw;
+  background: white;
+}
+.layer2-burger-nav-icons span:hover {
+  background: #e2dddd;
+}
+.layer2-burger-icon svg {
+  width: 14px;
+  height: 14px;
+  color: #0476d0 !important;
+}
+.burger-nav-divider {
+  width: 30%;
+  margin-bottom: 2vh;
+  border-bottom: 1px solid #0476d0;
+}
+.burger-nav-icons {
+  display: flex;
+}
+.burger-icon {
+  stroke-width: 3px;
 }
 .x-icon {
   left: 25px;
   top: 30px;
   color: white !important;
-  font-weight: bolder !important;
   position: absolute;
   stroke-width: 180px;
+}
+.x-shoppingcart {
+  top: 15px;
+  stroke-width: 180px;
+}
+.burger-menu-x-icon {
+  top: 10px;
+  right: 25px;
 }
 .x-icon:hover {
   cursor: pointer;
   color: #e2dddd !important;
 }
-.nav-menu {
+.slider-menu,
+.burger-menu {
   line-height: normal;
   background-color: #181818;
   width: 100vw;
@@ -33,41 +67,46 @@
   left: 0;
   transition: 850ms;
 }
-@media only screen and(max-width:1024px) {
-  .nav-menu {
-    display: block;
-  }
-}
-
-.nav-menu.active {
+/* .burger-menu {
+  z-index: 99;
+} */
+.slider-shoppingcart {
+  line-height: normal;
+  background-color: #f1f0f0;
+  width: 33%;
+  z-index: 100;
+  height: 100vh;
+  position: fixed;
   top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+.slider-shoppingcart.opened {
+  left: 0;
   transition: 350ms;
+  display: flex;
+  justify-content: center;
 }
 
-.nav-menu-items {
+.slider-menu.active,
+.burger-menu.active {
+  top: 0;
+  transition: 500ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burger-menu.active {
+  flex-direction: column;
+}
+.slider-menu-content,
+.burger-menu-content {
+  width: 100%;
 }
 
-.navbar-toggle {
-}
-.navbar-toggle:hover {
-}
-.slider-menu-content {
+.cart-sidebar-header {
+  width: 100%;
   position: relative;
-  /* transform: translateY(50%); */
-  top: 35%;
-  color: white;
-}
-.slider-menu-address {
-  font-size: 50px;
-  color: white;
-  margin: 0 auto;
-  /* width: 50%; */
-}
-.slider-menu-content span {
-  font-size: 25px;
-}
-.slider-menu-content p:hover,
-.slider-menu-content span:hover {
-    cursor: pointer;
-  color: #1981d1;
+  background: #0476d0;
+  height: 5vh;
 }

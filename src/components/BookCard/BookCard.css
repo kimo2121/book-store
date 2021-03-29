@@ -1,0 +1,48 @@
+.each-book {
+  text-align: right;
+  margin: 2vh;
+  width: 250px;
+  height: fit-content;
+  background: #ebebeb;
+}
+
+.each-book img {
+  width: 100%;
+  height: 40vh !important;
+  object-fit: cover;
+}
+.each-book p {
+  margin: 0;
+}
+.book-old-price {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.book-details {
+  padding: 10px;
+}
+.book-details a {
+  text-decoration: none;
+  color: #0476d0;
+  font-size: 1.25em;
+}
+.book-details a:hover {
+  color: #1981d1;
+  text-decoration: underline;
+}
+.book-details-icon {
+  margin-left: 0.5vw;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  display: inline-block;
+  background: #0476d0;
+  padding: 0.3vh 2.3vh;
+  border-radius: 13px;
+}
+.book-details-icon:hover {
+  background: #1981d1;
+}
+.book-details-icon svg {
+  color: white;
+}

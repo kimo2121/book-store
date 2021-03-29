@@ -1,13 +1,13 @@
 export const countriesdata = [
-  "مصر",
-  "سوريا",
-  "ليبيا",
-  "الجزائر",
-  "فلسطين",
-  "المغرب",
-  "السعودية",
-  "اليمن",
-  "العراق",
+  { name: "مصر", country: "egypt" },
+  { name: "سوريا", country: "syria" },
+  { name: "ليبيا", country: "libia" },
+  { name: "الجزائر", country: "gaza`er" },
+  { name: "فلسطين", country: "palastine" },
+  { name: "المغرب", country: "morocco" },
+  { name: "السعودية", country: "saudi" },
+  { name: "اليمن", country: "yemen" },
+  { name: "العراق", country: "iraq" },
 ];
 
 export const WritersData = [
