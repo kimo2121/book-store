@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        {/* <div style={{ height: "10vh" }} /> */}
+        <div style={{ height: "10vh" }} />
         <Switch>
           {/* <Route exact path="/" component={HomePage} /> */}
           <Route exact path="/من-نحن" component={About} />
